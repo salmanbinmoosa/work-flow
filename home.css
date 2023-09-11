@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* utiliyyyyyys */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F9FAFC;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-a {
+    display: flex;
+    align-items: center;
+}
+
+.flex-j {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-a-j {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* utiliyyyyyys */
+
+
+header {
+    height: 64px;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 30px;
+}
+
+.logo {
+    width: 240px;
+    height: 64px;
+    flex-shrink: 0;
+}
+
+.search {
+    width: 1285px;
+    height: 40px;
+    flex-shrink: 0;
+    border: 1px solid #8392A7;
+    stroke-width: 1px;
+    stroke: #8392A7;
+
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+}
+
+.search input {
+    color: #8998AC;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    outline: none;
+
+    width: 100%;
+    border: none;
+}
+
+.header-right {
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.header-right img {
+    width: 26.503px;
+    height: 25.002px;
+    flex-shrink: 0;
+}
+
+.header-right img:nth-child(4) {
+    width: 17.921px;
+    height: 24.003px;
+    flex-shrink: 0;
+}
+
+.header-right img:nth-child(5) {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+}
+
+
+main {
+    gap: 15px;
+}
+
+
+/* main base */
+.base {
+    width: 60px;
+    display: flex;
+    /* justify-content: center; */
+    gap: 60px;
+    align-items: center;
+    background-color: #F5F8FC;
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.base-col {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.base-col img {
+    width: 20.155px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+/* main base */
+
+/* card top starts */
+.card-top {
+    width: 1839px;
+    height: 48px;
+    flex-shrink: 0;
+    background-color: #EFF2F7;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.card-top p {
+    color: #3B4859;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card-top-right p:nth-child(1) {
+    color: #8998AC;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-top-right {
+    gap: 4px;
+}
+
+.card-top-right p:nth-child(2) {
+    color: #3B7CFF;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* card top ends */
+
+/* card main left */
+.card-main-left {
+    background-color: #FFF;
+    width: 285px;
+    padding: 8px;
+    height: 88vh;
+}
+
+/* card main left */
+
+/* menu starst */
+.menu {
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 35px;
+}
+
+.menu h4 {
+    color: #399EF7;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.menus p {
+    color: #399EF7;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.menus {
+    gap: 20px;
+}
+
+/* menu starst */
+
+/* projects starst */
+.projects-top {
+    max-width: 1505px;
+}
+
+.projects-top h4 {
+    color: #3B4859;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.search2 {
+    width: 232px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    padding-inline: 20px;
+}
+.search2 input {
+    color: rgba(82, 82, 82, 0.50);
+font-family: Segoe UI;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.search2 img {
+    width: 14px;
+    height: 15px;
+    flex-shrink: 0;
+}
+
+/* projects ends */

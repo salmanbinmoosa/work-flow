@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Mulish&family=Open+Sans:wght@500&family=Poppins&display=swap');
-      </style>
+    </style>
 </head>
 
 <body>
@@ -33,21 +33,35 @@
                 </div>
                 <!-- email input starts -->
                 <div class="email flex">
-                <label id="email-label" for="email">Email</label>
-                <div class="email-input">
-                    <input placeholder="Input your email here" type="email" name="email" id="email">
+                    <label id="email-label" for="email">Email</label>
+                    <div class="email-input">
+                        <input placeholder="Input your email here" type="email" name="email" id="email">
+                    </div>
                 </div>
-            </div>
                 <!-- email input ends -->
 
                 <!-- password input starts -->
                 <div class="password flex">
-                <label id="password-label" for="password">Password</label>
-                <div class="email-input">
-                    <input placeholder="Input your password here" type="password" name="password" id="password">
-                    <img class="hide-pass" src="images/eye-no.png" alt="">
+                    <label id="password-label" for="password">Password</label>
+                    <div class="email-input">
+                        <input placeholder="Input your password here" type="password" name="password" id="password">
+                        <img class="hide-pass" src="images/eye-no.png" alt="">
+                    </div>
                 </div>
-                </div>
+
+                <script>
+                    const hide = document.getElementsByClassName("hide-pass")[0]
+                    const passwordInp = document.getElementById("password")
+
+                    hide.addEventListener("click", function () {
+                        if (passwordInp.type === "password") {
+                            passwordInp.type = "text"
+                        } else {
+                            passwordInp.type = "password"
+                        }
+                    })
+
+                </script>
                 <!-- password input end -->
 
                 <!-- forgot pass starts -->
@@ -60,7 +74,7 @@
                         <a href="#">Forgot passwod?</a>
                     </div>
                 </div>
-                
+
                 <!-- forgot pass ends -->
 
                 <!-- sign btns starts -->
