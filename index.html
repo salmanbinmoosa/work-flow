@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mulish&family=Open+Sans:wght@500&family=Poppins&display=swap');
+      </style>
+</head>
+
+<body>
+    <main class="flex">
+        <aside class="left">
+            <div class="left-headings">
+                <h4>Workflow Management</h4>
+                <h3>Manage your project and <br>team in easy way</h3>
+            </div>
+            <img src="images/Frame.png" alt="">
+        </aside>
+
+        <aside class="right">
+            <div class="sign-page flex">
+                <h4>Sign in </h4>
+                <button><a href="#">Sign in with google</a></button>
+                <div class="or flex">
+
+                    <hr>
+                    <p>or</p>
+                    <hr>
+                </div>
+                <!-- email input starts -->
+                <div class="email flex">
+                <label id="email-label" for="email">Email</label>
+                <div class="email-input">
+                    <input placeholder="Input your email here" type="email" name="email" id="email">
+                </div>
+            </div>
+                <!-- email input ends -->
+
+                <!-- password input starts -->
+                <div class="password flex">
+                <label id="password-label" for="password">Password</label>
+                <div class="email-input">
+                    <input placeholder="Input your password here" type="password" name="password" id="password">
+                    <img class="hide-pass" src="images/eye-no.png" alt="">
+                </div>
+                </div>
+                <!-- password input end -->
+
+                <!-- forgot pass starts -->
+                <div class="forgot-pass flex">
+                    <div class="forgot-left flex">
+                        <input type="checkbox" id="checkbox">
+                        <p>Remember me</p>
+                    </div>
+                    <div class="forgot-right">
+                        <a href="#">Forgot passwod?</a>
+                    </div>
+                </div>
+                
+                <!-- forgot pass ends -->
+
+                <!-- sign btns starts -->
+                <div class="sign-btns flex">
+                    <button><a href="#">Sign In</a></button>
+
+                    <div class="sign-right flex">
+                        <p>Doesn’t have an account?</p>
+                        <a href="#"> Sign up Now</a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- sign btns ends -->
+
+        </aside>
+    </main>
+
+</body>
+
+</html>
