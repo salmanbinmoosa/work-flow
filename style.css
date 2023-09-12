@@ -149,7 +149,8 @@ main {
 
 .or {
     align-items: center;
-    gap: 16px;
+    gap: 20px;
+    justify-content: center;
 }
 
 .or p {
@@ -158,7 +159,8 @@ main {
 
     /* Body/Body 2 Regular */
     font-family: Mulish;
-    font-size: 14px;
+
+    font-size: 1.3rem;
     font-style: normal;
     font-weight: 400;
     line-height: 130%;
@@ -166,11 +168,13 @@ main {
     letter-spacing: 0.112px;
 }
 
-.or hr {
+.or-lines {
     width: 280px;
     height: 1px;
-    color: #E1E1E1;
+    background-color: #E1E1E1;
 }
+
+
 
 /* sign up inputs */
 
@@ -240,9 +244,12 @@ main {
 
 }
 
-#checkbox {
-    border-color: red;
-}
+
+/* .forgot-left input[type="checkbox"] + label {
+    background-color: red;
+    outline: none;
+    color: green;
+} */
 
 .forgot-left p {
     color: var(--light-text-color-body-2, #9A9AB0);

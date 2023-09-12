@@ -231,7 +231,13 @@ main {
 
 /* projects starst */
 .projects-top {
-    max-width: 1505px;
+    width: 1505px;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF;
+
 }
 
 .projects-top h4 {
@@ -244,20 +250,31 @@ main {
 }
 
 .search2 {
-    width: 232px;
+    width: 226px;
     height: 46px;
     flex-shrink: 0;
-    border-radius: 20px;
+    /* padding-left: 20px; */
     padding-inline: 20px;
+    border-radius: 20px;
+    border: 1px solid #A9B9C6;
+
+    justify-content: center;
+    align-items: center;
 }
+
 .search2 input {
     color: rgba(82, 82, 82, 0.50);
-font-family: Segoe UI;
-font-size: 15px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    font-family: Segoe UI;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    width: 80%;
+    outline: none;
 }
+
+
 .search2 img {
     width: 14px;
     height: 15px;
