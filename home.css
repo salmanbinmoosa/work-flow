@@ -7,6 +7,10 @@
 }
 
 /* utiliyyyyyys */
+img {
+    cursor: pointer;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Mulish', sans-serif;
