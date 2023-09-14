@@ -146,6 +146,12 @@ main {
     flex-shrink: 0;
 }
 
+.base-col:nth-child(2) img:nth-child(5) {
+    width: 21px;
+    height: 5px;
+    flex-shrink: 0;
+}
+
 /* main base */
 
 /* card top starts */
@@ -431,6 +437,10 @@ main {
     display: flex;
     flex-direction: column;
     gap: 20px;
+
+    background-color: #FFF;
+    border-radius: 20px;
+    margin-left: 5px;
 }
 
 .p-form-top {
@@ -462,8 +472,8 @@ main {
 }
 
 .p-form-top-right a img {
-    width: 44.22px;
-    height: 44.22px;
+    width: 60.22px;
+    height: 60.22px;
     transform: rotate(45deg);
     flex-shrink: 0;
 }
@@ -496,17 +506,21 @@ main {
 form {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: 120px 120px 120px 120px; */
+    row-gap: 50px;
     /* grid-template-rows: 15px 150px 150px 150px; */
     column-gap: 160px;
     /* row-gap: 10px; */
     /* row-gap: 10px; */
     padding: 20px;
+    height: 400px;
 
 }
 
 .form-child:nth-child(5) {
     grid-column: span 2;
 }
+
 
 .form-child {
     flex-direction: column;
@@ -819,9 +833,9 @@ form {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-border: none;
+    border: none;
     border-radius: 10px;
-   
+
 
     background-color: #399EF7;
     filter: drop-shadow(5px 5px 7px rgba(0, 0, 0, 0.25)) drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.25)) drop-shadow(-2px -2px 2px rgba(255, 255, 255, 0.05)) drop-shadow(-6px -6px 8px rgba(255, 255, 255, 0.10));
