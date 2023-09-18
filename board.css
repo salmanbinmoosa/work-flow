@@ -119,6 +119,8 @@ header {
 }
 
 
+/* header ends */
+
 
 main {
     gap: 15px;
@@ -157,6 +159,8 @@ main {
 }
 
 /* main base */
+
+
 
 /* card top starts */
 .card-top {
@@ -202,6 +206,7 @@ main {
 
 /* card top ends */
 
+
 /* card main left */
 .card-main-left {
     background-color: #FFF;
@@ -240,6 +245,8 @@ main {
 .menus {
     gap: 20px;
 }
+
+
 
 /* menu starst */
 
@@ -301,6 +308,11 @@ main {
 }
 
 /*  */
+
+
+/* projects container starts */
+
+
 
 
 /* projects container starts */
@@ -435,6 +447,7 @@ main {
 
 
 
+
 /* <!-- project form starts --> */
 .project-form {
     padding: 20px;
@@ -449,6 +462,7 @@ main {
 
 .p-form-top {
     justify-content: space-between;
+    align-items: center;
 }
 
 .p-form-top-left {
@@ -476,7 +490,7 @@ main {
 }
 
 .p-form-top-right {
-    gap: 10px;
+    gap: 20px;
     align-items: center;
 }
 
@@ -486,6 +500,23 @@ main {
     transform: rotate(45deg);
     flex-shrink: 0;
 }
+
+.usecase-search input {
+    border: none;
+
+    color: rgba(82, 82, 82, 0.50);
+    font-family: Segoe UI;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 70%;
+    outline: none;
+
+}
+
+
+
 
 .usecase-search input {
     border: none;
@@ -524,6 +555,25 @@ main {
 
 }
 
+.change-view-btn {
+    width: 141px;
+    height: 43.441px;
+    flex-shrink: 0;
+
+    background-color: #399EF7;
+    filter: drop-shadow(5px 5px 7px rgba(0, 0, 0, 0.25)) drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.25)) drop-shadow(-2px -2px 2px rgba(255, 255, 255, 0.05)) drop-shadow(-6px -6px 8px rgba(255, 255, 255, 0.10));
+
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    border-radius: 15px;
+}
+
 select option {}
 
 .usecase-search {
@@ -537,250 +587,10 @@ select option {}
     gap: 20px;
     /* padding-right: 20px; */
 
-
 }
 
+body {
+    width: 100%;
+    /* height: 100vh; */
 
-
-/* <!-- add lists constwine starts --> */
-.add-lists {
-    width: 1830px;
-    height: 1224px;
-    flex-shrink: 0;
-
-    background-color: #fff;
-    align-items: start;
-    gap: 25px;
-    padding: 14px;
-    overflow-x: scroll;
-    margin-inline: auto;
-    overflow-y: hidden;
 }
-
-.list {
-    width: 322px;
-    /* height: 243px; */
-    flex-shrink: 0;
-
-    border-radius: 5px;
-    background-color: #CCDAF4;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
-    padding: 20px 10px;
-    flex-direction: column;
-    gap: 12px;
-}
-
-.list-top {
-    align-items: center;
-    justify-content: space-between;
-    padding-right: 10px;
-}
-
-.list-top h2 {
-    color: #2662F0;
-    font-family: Montserrat;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-
-.list-top img {
-    width: 14.986px;
-    height: 1.875px;
-    flex-shrink: 0;
-}
-
-.add-table {
-    width: 304px;
-    height: 119px;
-    flex-shrink: 0;
-
-    border-radius: 10px;
-    border: 0.15px solid #547580;
-    background: #FFF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    border: none;
-
-    color: #525252;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-
-    padding: 10px;
-}
-
-.add-usecase {
-    width: 303.708px;
-    height: 48px;
-    flex-shrink: 0;
-
-    border-radius: 10px;
-    background: #FFF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
-    justify-content: space-between;
-    align-items: center;
-
-    padding: 10px;
-    cursor: pointer;
-}
-
-
-.add-usecase img:nth-child(1) {
-    width: 14.601px;
-    height: 15px;
-    flex-shrink: 0;
-}
-
-.add-usecase img {
-    width: 21.415px;
-    height: 18px;
-    flex-shrink: 0;
-}
-
-.add-usecase p {
-    color: #000;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-right: 100px;
-}
-
-#hide-use-case:hover {
-    background-color: #fff;
-    transition: 0.2s;
-}
-
-
-.checklist {
-    width: 304px;
-    height: 76px;
-    flex-shrink: 0;
-
-    border-radius: 10px;
-    border: 0.15px solid #547580;
-    background: #FFF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    border: none;
-
-    color: #525252;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-
-    padding: 10px;
-}
-
-
-.add-another-list {
-    width: 322px;
-    height: 65px;
-    flex-shrink: 0;
-
-    border-radius: 5px;
-    background: #CCDAF4;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-}
-
-.add-another-list img {
-    width: 18px;
-    height: 18px;
-    flex-shrink: 0;
-}
-
-.add-another-list p {
-    color: #2662F0;
-    font-family: Montserrat;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-
-/* <!-- add lists constwine starts --> */
-
-
-
-/* add new list events */
-.add-new-list {
-    width: 322px;
-
-
-    border-radius: 5px;
-    background-color: #CCDAF4;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
-    flex-direction: column;
-    padding: 20px 10px;
-
-    gap: 20px;
-
-    display: none;
-}
-
-.add-new-list input {
-    width: 304px;
-
-    height: 45px;
-    flex-shrink: 0;
-
-    border-radius: 5px;
-    border: 1px solid #399EF7;
-    background: #FFF;
-
-    color: #8998AC;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-
-    padding: 10px;
-
-    border-radius: 10px;
-}
-
-.new-list-bottom button {
-    width: 87px;
-    height: 42px;
-    flex-shrink: 0;
-
-    background-color: #399EF7;
-    border: none;
-    filter: drop-shadow(5px 5px 7px rgba(0, 0, 0, 0.25)) drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.25)) drop-shadow(-2px -2px 2px rgba(255, 255, 255, 0.05)) drop-shadow(-6px -6px 8px rgba(255, 255, 255, 0.10));
-
-    border-radius: 18px;
-
-    color: #FFF;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-
-.new-list-bottom {
-    justify-content: space-between;
-    align-items: center;
-}
-
-.new-list-bottom a img {
-    width: 2px;
-    height: auto;
-    flex-shrink: 0;
-
-    opacity: 0.8;
-}
-
-/* add new list events */
