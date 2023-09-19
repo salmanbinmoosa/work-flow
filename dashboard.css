@@ -61,6 +61,221 @@ button:hover {
 /* utiliyyyyyys */
 
 
+
+/* project list starts */
+.project-list {
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+/* list left */
+.list-left {
+    width: 1102px;
+    height: 595px;
+    flex-shrink: 0;
+    background-color: #FFF;
+    border: 0.5px solid #B1C9F8;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+
+}
+
+
+.list-left-top {
+    justify-content: space-between;
+    padding-top: 49px;
+    padding-inline: 20px;
+
+}
+
+.list-left-top img {}
+
+.list-left-top h2 {
+    color: #202020;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.list-left-top-right {
+    gap: 48px;
+    align-items: center;
+}
+
+.list-left-top-right p {
+    color: #A5A5A5;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+
+
+}
+
+.underlines {
+    color: #6418C3;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    position: relative;
+    /* transition: 2s linear; */
+}
+
+.underlines::after {
+    content: "";
+    width: 130%;
+    height: 4px;
+    background-color: #6418C3;
+    ;
+    position: absolute;
+    top: 37px;
+    left: -11px;
+}
+
+
+
+.list-left-top-right p:nth-child(1) {
+    color: #6418C3;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+
+}
+
+
+.list-left-top-right img {
+    width: 23.758px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.list-left-top-right img:hover {
+    opacity: 0.7;
+
+}
+
+
+.list-right {
+    width: 340px;
+    height: 595px;
+    flex-shrink: 0;
+    background-color: #FFF;
+    border: 0.5px solid #B1C9F8;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+}
+
+
+/*  */
+.left-project-main {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+
+
+    height: 448px;
+    overflow: hidden;
+}
+
+.p-list {
+    gap: 30px;
+    border-bottom: 1px solid #F8F8F8;
+    padding-left: 40px;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.p-list span {
+    width: 5px;
+    height: 148px;
+    flex-shrink: 0;
+
+    background-color: #6418C3;
+    border: 1px solid #F8F8F8;
+    stroke-width: 1px;
+    position: absolute;
+    top: 0;
+    left: 4px;
+}
+
+.p-list-left {
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+}
+
+.p-list-left img {
+    width: 50px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.p-list-left:nth-child(2) img {
+    width: 50px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.p-list-left img:nth-child(2) {
+    width: 33px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.p-list-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.p-list-right h2 {
+    color: #202020;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.p-list-update {
+    gap: 15px;
+    align-items: center;
+
+}
+
+
+.p-list-update span {
+    width: 4px;
+    height: 4px;
+    flex-shrink: 0;
+    background-color: #A5A5A5;
+    border: 1px solid #F8F8F8;
+}
+
+.p-list-update p {
+    color: #A5A5A5;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* project list ends */
+
+
 /* project overvies starts */
 
 
@@ -72,7 +287,7 @@ button:hover {
     flex-direction: column;
     align-items: start;
     /* dammi margin */
-    margin-top: 200px;
+    margin-top: 50px;
     height: 374px;
 
     padding: 40px;
@@ -471,7 +686,8 @@ button:hover {
     font-weight: 400;
     line-height: normal;
 }
-.col-7 ul li:nth-child(3) ,
+
+.col-7 ul li:nth-child(3),
 .col-7 ul li:nth-child(5) {
     color: #FFA000;
     font-family: Montserrat;
